@@ -216,8 +216,6 @@ class Pilot(object):
         for invalid_id in invalid_locations:
             locations.pop(invalid_id, None)
 
-        # BELOW IS WHERE I"M GETTING STUCK
-
         # If head is North AND North loc: (6) is in locations we will go up (0, 1)
         # Else if head is right AND Left loc of right: (8) is in locations, we go left (1, 1)
         # Else we go Right (-1, 1)

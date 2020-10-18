@@ -65,4 +65,6 @@ def move(p, step):
 
     return q
 
+
+print(4444)
 print(q4_localize(colors,measurements,motions,sensor_right,p_move))
